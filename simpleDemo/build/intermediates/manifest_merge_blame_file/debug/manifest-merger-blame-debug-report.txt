@@ -1,0 +1,1122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bc.solarsync"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:11:5-67
+11-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:12:5-75
+12-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:12:22-72
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:13:5-79
+13-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:14:5-76
+14-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:14:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:15:5-81
+15-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:15:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:16:5-66
+16-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:16:22-63
+17    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 自定义权限 -->
+17-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:17:5-68
+17-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:17:22-65
+18    <uses-permission android:name="getui.permission.GetuiService.com.bc.solarsync" />
+18-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:20:5-86
+18-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:20:22-83
+19
+20    <permission
+20-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:22:5-24:44
+21        android:name="getui.permission.GetuiService.com.bc.solarsync"
+21-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:23:9-70
+22        android:protectionLevel="normal" />
+22-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:24:9-41
+23
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25
+26    <supports-screens
+26-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:9:5-14:39
+27        android:anyDensity="true"
+27-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:10:9-34
+28        android:largeScreens="true"
+28-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:11:9-36
+29        android:normalScreens="true"
+29-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:12:9-37
+30        android:resizeable="true"
+30-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:13:9-34
+31        android:smallScreens="true" />
+31-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:14:9-36
+32    <!--
+33    <uses-permission
+34        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+35    -->
+36    <!-- 华为修改角标需要设置权限 -->
+37    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+37-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:24:5-91
+37-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:24:22-88
+38    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+38-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:26:5-83
+38-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:26:22-80
+39
+40    <queries>
+40-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:28:5-37:15
+41        <intent>
+41-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:29:9-31:18
+42            <action android:name="android.intent.action.MAIN" />
+42-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:22:17-69
+42-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:22:25-66
+43        </intent>
+44        <intent>
+44-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:29:9-31:18
+45            <action android:name="android.intent.action.VIEW" />
+45-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:44:17-69
+45-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:44:25-66
+46
+47            <category android:name="android.intent.category.DEFAULT" />
+47-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:17-76
+47-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:27-73
+48        </intent>
+49    </queries>
+50
+51    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+51-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:11:5-86
+51-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:11:22-83
+52    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE" />
+52-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:12:5-85
+52-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:12:22-82
+53
+54    <permission
+54-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:11:5-13:47
+55        android:name="com.bc.solarsync.permission.MIPUSH_RECEIVE"
+55-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:12:9-66
+56        android:protectionLevel="signature" />
+56-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:13:9-44
+57
+58    <uses-permission android:name="com.bc.solarsync.permission.MIPUSH_RECEIVE" /> <!-- 魅族 -->
+58-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:15:5-82
+58-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:15:22-79
+59    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+59-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:12:5-79
+59-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:12:22-76
+60    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+60-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:13:5-73
+60-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:13:22-70
+61    <uses-permission android:name="com.bc.solarsync.push.permission.MESSAGE" />
+61-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:14:5-80
+61-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:14:22-77
+62    <uses-permission android:name="com.bc.solarsync.permission.C2D_MESSAGE" />
+62-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:15:5-79
+62-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:15:22-76
+63
+64    <permission
+64-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:17:5-19:47
+65        android:name="com.bc.solarsync.push.permission.MESSAGE"
+65-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:18:9-64
+66        android:protectionLevel="signature" />
+66-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:19:9-44
+67    <permission
+67-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:20:5-22:47
+68        android:name="com.bc.solarsync.permission.C2D_MESSAGE"
+68-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:21:9-63
+69        android:protectionLevel="signature" />
+69-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:22:9-44
+70
+71    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+71-->[oaid_sdk_1.0.25.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/23511f01ef08a705ef27e4e273ea7ee0/jetified-oaid_sdk_1.0.25/AndroidManifest.xml:13:5-76
+71-->[oaid_sdk_1.0.25.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/23511f01ef08a705ef27e4e273ea7ee0/jetified-oaid_sdk_1.0.25/AndroidManifest.xml:13:22-73
+72    <uses-permission android:name="freemme.permission.msa" />
+72-->[oaid_sdk_1.0.25.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/23511f01ef08a705ef27e4e273ea7ee0/jetified-oaid_sdk_1.0.25/AndroidManifest.xml:15:5-62
+72-->[oaid_sdk_1.0.25.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/23511f01ef08a705ef27e4e273ea7ee0/jetified-oaid_sdk_1.0.25/AndroidManifest.xml:15:22-59
+73
+74    <permission
+74-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:9:5-11:55
+75        android:name="com.bc.solarsync.permission.PROCESS_PUSH_MSG"
+75-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:10:9-68
+76        android:protectionLevel="signatureOrSystem" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
+76-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:11:9-52
+77    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
+78    <permission
+78-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:14:5-16:55
+79        android:name="com.bc.solarsync.permission.PUSH_PROVIDER"
+79-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:15:9-65
+80        android:protectionLevel="signatureOrSystem" />
+80-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:16:9-52
+81    <permission
+81-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:17:5-19:55
+82        android:name="com.bc.solarsync.permission.PUSH_WRITE_PROVIDER"
+82-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:18:9-71
+83        android:protectionLevel="signatureOrSystem" />
+83-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:19:9-52
+84
+85    <uses-permission android:name="com.bc.solarsync.permission.PROCESS_PUSH_MSG" />
+85-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:21:5-84
+85-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:21:22-81
+86    <uses-permission android:name="com.bc.solarsync.permission.PUSH_PROVIDER" />
+86-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:22:5-81
+86-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:22:22-78
+87    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+87-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:23:5-77
+87-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:23:22-74
+88    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+88-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:16:5-83
+88-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:16:22-80
+89    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+89-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:18:5-106
+89-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:18:22-103
+90
+91    <application
+91-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:5:5-60:19
+92        android:name="io.dcloud.application.DCloudApplication"
+92-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:170:9-63
+93        android:allowBackup="true"
+93-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:6:9-35
+94        android:allowClearUserData="true"
+94-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:7:9-42
+95        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+95-->[androidx.core:core:1.0.0] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/584bc4779a308e0aa4345336c4e0d5dc/core-1.0.0/AndroidManifest.xml:22:18-86
+96        android:debuggable="true"
+97        android:extractNativeLibs="true"
+97-->[uniapp-v8-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/382fff36f27217d2a5f8e25a9e7bdca3/jetified-uniapp-v8-release/AndroidManifest.xml:29:18-50
+98        android:icon="@drawable/icon"
+98-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:8:9-38
+99        android:label="@string/app_name"
+99-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:9:9-41
+100        android:largeHeap="true"
+100-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:10:9-33
+101        android:supportsRtl="true"
+101-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:11:9-35
+102        android:testOnly="true"
+103        android:usesCleartextTraffic="true" >
+103-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:26:18-53
+104        <activity
+104-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:12:9-31:20
+105            android:name="io.dcloud.PandoraEntry"
+105-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:13:13-50
+106            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+106-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:14:13-83
+107            android:hardwareAccelerated="true"
+107-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:17:13-47
+108            android:label="@string/app_name"
+108-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:15:13-45
+109            android:launchMode="singleTask"
+109-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:16:13-44
+110            android:screenOrientation="user"
+110-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:19:13-45
+111            android:theme="@style/TranslucentTheme"
+111-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:18:13-52
+112            android:windowSoftInputMode="adjustResize" >
+112-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:20:13-55
+113            <intent-filter>
+113-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:21:13-24:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:22:17-69
+114-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:22:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:23:17-77
+116-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:23:27-74
+117            </intent-filter>
+118            <!-- oppo配置开始 -->
+119            <intent-filter>
+119-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:26:13-29:29
+120                <action android:name="android.intent.action.oppopush" />
+120-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:27:17-73
+120-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:27:25-70
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:17-76
+122-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:27-73
+123            </intent-filter>
+124            <!-- oppo配置结束 -->
+125        </activity>
+126        <activity
+126-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:32:9-47:20
+127            android:name="io.dcloud.PandoraEntryActivity"
+127-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:33:13-58
+128            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard|smallestScreenSize|screenLayout|screenSize"
+128-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:35:13-144
+129            android:hardwareAccelerated="true"
+129-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:36:13-47
+130            android:launchMode="singleTask"
+130-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:34:13-44
+131            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+131-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:37:13-89
+132            android:screenOrientation="user"
+132-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:38:13-45
+133            android:theme="@style/DCloudTheme"
+133-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:39:13-47
+134            android:windowSoftInputMode="adjustResize" >
+134-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:40:13-55
+135            <intent-filter>
+135-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:41:13-46:29
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:17-76
+136-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:27-73
+137                <category android:name="android.intent.category.BROWSABLE" />
+137-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:43:17-78
+137-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:43:27-75
+138
+139                <action android:name="android.intent.action.VIEW" />
+139-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:44:17-69
+139-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:44:25-66
+140
+141                <data android:scheme="h56131bcf" />
+141-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:45:17-52
+141-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:45:23-49
+142            </intent-filter>
+143        </activity>
+144
+145        <provider
+145-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:48:9-56:20
+146            android:name="io.dcloud.common.util.DCloud_FileProvider"
+146-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:49:13-69
+147            android:authorities="com.android.simple.dc.fileprovider"
+147-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:50:13-69
+148            android:exported="false"
+148-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:51:13-37
+149            android:grantUriPermissions="true" >
+149-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:52:13-47
+150            <meta-data
+150-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:53:13-55:64
+151                android:name="android.support.FILE_PROVIDER_PATHS"
+151-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:54:17-67
+152                android:resource="@xml/dcloud_file_provider" />
+152-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:55:17-61
+153        </provider>
+154
+155        <meta-data
+155-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:57:9-59:64
+156            android:name="dcloud_appkey"
+156-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:58:13-41
+157            android:value="f14aaa436c85e64d617b75b8ec6c8864" />
+157-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:59:13-61
+158
+159        <service
+159-->[aps-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/1373cead168207f47b229e24c765b1e4/jetified-aps-release/AndroidManifest.xml:10:9-12:40
+160            android:name="io.dcloud.feature.aps.ApsActionService"
+160-->[aps-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/1373cead168207f47b229e24c765b1e4/jetified-aps-release/AndroidManifest.xml:11:13-66
+161            android:exported="false" />
+161-->[aps-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/1373cead168207f47b229e24c765b1e4/jetified-aps-release/AndroidManifest.xml:12:13-37
+162
+163        <meta-data
+163-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:27:9-29:46
+164            android:name="GETUI_APPID"
+164-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:28:13-39
+165            android:value="xN4SzW5lFF7pYX20iNGL12" /> <!-- 配置SDK核心服务 -->
+165-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:29:13-43
+166        <service
+166-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:32:9-36:46
+167            android:name="com.igexin.sdk.PushService"
+167-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:33:13-54
+168            android:exported="false"
+168-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:34:13-37
+169            android:label="NotificationCenter"
+169-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:35:13-47
+170            android:process=":pushservice" />
+170-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:36:13-43
+171
+172        <receiver
+172-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:38:9-45:20
+173            android:name="com.igexin.sdk.PushReceiver"
+173-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:39:13-55
+174            android:exported="false" >
+174-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:40:13-37
+175            <intent-filter>
+175-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:41:13-44:29
+176                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+176-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:17-79
+176-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:25-76
+177                <action android:name="android.intent.action.USER_PRESENT" />
+177-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:43:17-77
+177-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:43:25-74
+178            </intent-filter>
+179            <intent-filter>
+179-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:42:13-51:29
+180                <action android:name="android.intent.action.BOOT_COMPLETED" />
+180-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:34:17-79
+180-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:34:25-76
+181                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+181-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:17-79
+181-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:25-76
+182                <action android:name="android.intent.action.USER_PRESENT" />
+182-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:43:17-77
+182-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:43:25-74
+183                <action android:name="com.igexin.sdk.action.refreshls" />
+183-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:46:17-74
+183-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:46:25-71
+184                <!-- 以下三项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+185                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+185-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:48:17-78
+185-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:48:25-75
+186                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+186-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:49:17-87
+186-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:49:25-84
+187                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+187-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:50:17-90
+187-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:50:25-87
+188            </intent-filter>
+189        </receiver>
+190
+191        <activity
+191-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:47:9-53:75
+192            android:name="com.igexin.sdk.PushActivity"
+192-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:48:13-55
+193            android:excludeFromRecents="true"
+193-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:49:13-46
+194            android:exported="false"
+194-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:50:13-37
+195            android:process=":pushservice"
+195-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:51:13-43
+196            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+196-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:52:13-67
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:53:13-72
+198        <activity
+198-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:54:9-60:75
+199            android:name="com.igexin.sdk.GActivity"
+199-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:55:13-52
+200            android:excludeFromRecents="true"
+200-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:56:13-46
+201            android:exported="true"
+201-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:57:13-36
+202            android:process=":pushservice"
+202-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:58:13-43
+203            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+203-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:59:13-67
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:60:13-72
+205        <activity
+205-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:173:9-176:40
+206            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+206-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:174:13-69
+207            android:exported="false"
+207-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:175:13-37
+208            android:noHistory="true" />
+208-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:176:13-37
+209        <activity
+209-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:177:9-181:58
+210            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+210-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:178:13-79
+211            android:exported="false"
+211-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:179:13-37
+212            android:noHistory="false"
+212-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:180:13-38
+213            android:theme="@style/DeviceDefault.Light" />
+213-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:181:13-55
+214        <activity
+214-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:182:9-192:58
+215            android:name="io.dcloud.WebAppActivity"
+215-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:183:13-52
+216            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+216-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:184:13-92
+217            android:hardwareAccelerated="true"
+217-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:185:13-47
+218            android:icon="@drawable/dcloud_recent"
+218-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:186:13-51
+219            android:label="@string/stream_my"
+219-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:187:13-46
+220            android:launchMode="singleTask"
+220-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:188:13-44
+221            android:screenOrientation="portrait"
+221-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:189:13-49
+222            android:taskAffinity=":stream"
+222-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:190:13-43
+223            android:theme="@style/DCloudTheme"
+223-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:191:13-47
+224            android:windowSoftInputMode="adjustResize" />
+224-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:192:13-55
+225        <activity
+225-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:193:9-197:75
+226            android:name="io.dcloud.ProcessMediator"
+226-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:194:13-53
+227            android:excludeFromRecents="true"
+227-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:195:13-46
+228            android:exported="false"
+228-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:196:13-37
+229            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+229-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:197:13-72
+230        <activity
+230-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:198:9-204:20
+231            android:name="io.dcloud.WebviewActivity"
+231-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:199:13-53
+232            android:exported="false"
+232-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:200:13-37
+233            android:screenOrientation="portrait"
+233-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:201:13-49
+234            android:theme="@style/ThemeNoTitleBar"
+234-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:202:13-51
+235            android:windowSoftInputMode="adjustPan" >
+235-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:203:13-52
+236        </activity>
+237
+238        <receiver
+238-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:206:9-214:20
+239            android:name="io.dcloud.common.adapter.io.DownloadReceiver"
+239-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:207:13-72
+240            android:exported="false" >
+240-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:208:13-37
+241            <intent-filter>
+241-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:209:13-213:29
+242                <action android:name="android.intent.action.PACKAGE_ADDED" />
+242-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:210:17-78
+242-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:210:25-75
+243
+244                <data android:scheme="package" /> <!-- HERE! -->
+244-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:45:17-52
+244-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:45:23-49
+245            </intent-filter>
+246        </receiver> <!-- gallery******start -->
+247        <activity
+247-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:217:9-222:63
+248            android:name="com.dmcbig.mediapicker.PickerActivity"
+248-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:218:13-65
+249            android:configChanges="orientation|screenSize"
+249-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:219:13-59
+250            android:exported="false"
+250-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:220:13-37
+251            android:theme="@style/DeviceDefault.Light"
+251-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:221:13-55
+252            android:windowSoftInputMode="stateAlwaysHidden" />
+252-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:222:13-60
+253        <activity
+253-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:223:9-228:63
+254            android:name="com.dmcbig.mediapicker.PreviewActivity"
+254-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:224:13-66
+255            android:configChanges="orientation|screenSize"
+255-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:225:13-59
+256            android:exported="false"
+256-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:226:13-37
+257            android:theme="@style/DeviceDefault.Light"
+257-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:227:13-55
+258            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
+258-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:228:13-60
+259        <!--
+260            <provider
+261            android:name="io.dcloud.common.util.DCloud_FileProvider"
+262            android:authorities="${apk.applicationId}.dc.fileprovider"
+263            android:exported="false"
+264            android:grantUriPermissions="true">
+265            <meta-data
+266                android:name="android.support.FILE_PROVIDER_PATHS"
+267                android:resource="@xml/dcloud_file_provider" />
+268        </provider>
+269        -->
+270        <!--
+271            <meta-data
+272            android:name="DCLOUD_STREAMAPP_CHANNEL"
+273            android:value="io.dcloud.%APPID%|%APPID%|" />
+274        -->
+275        <meta-data
+275-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:249:9-251:35
+276            android:name="android.max_aspect"
+276-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:250:13-46
+277            android:value="2.4" />
+277-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:251:13-32
+278
+279        <activity
+279-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:253:9-258:63
+280            android:name="io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+280-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:254:13-79
+281            android:configChanges="orientation|keyboardHidden|screenSize"
+281-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:255:13-74
+282            android:exported="false"
+282-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:256:13-37
+283            android:theme="@style/ImageEditTheme"
+283-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:257:13-50
+284            android:windowSoftInputMode="stateAlwaysHidden" />
+284-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:258:13-60
+285
+286        <service
+286-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:260:9-263:72
+287            android:name="io.dcloud.ads.base.service.DownloadService"
+287-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:261:13-70
+288            android:exported="false"
+288-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:262:13-37
+289            android:permission="android.permission.BIND_JOB_SERVICE" />
+289-->[lib.5plus.base-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/ddc498fe29e74d5505320d602e7abfd5/jetified-lib.5plus.base-release/AndroidManifest.xml:263:13-69
+290        <service
+290-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:15:9-22:19
+291            android:name="com.igexin.sdk.OppoPushService"
+291-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:16:13-58
+292            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE"
+292-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:17:13-77
+293            android:process=":pushservice" >
+293-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:18:13-43
+294            <intent-filter>
+294-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:19:13-21:29
+295                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+295-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:20:17-85
+295-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:20:25-82
+296            </intent-filter>
+297        </service>
+298        <service
+298-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:23:9-31:19
+299            android:name="com.igexin.sdk.OppoAppPushService"
+299-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:24:13-61
+300            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE"
+300-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:25:13-77
+301            android:process=":pushservice" >
+301-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:26:13-43
+302            <intent-filter>
+302-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:27:13-30:29
+303                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+303-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:28:17-84
+303-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:28:25-81
+304                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+304-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:29:17-82
+304-->[oppo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/e10573594c57e0a9501c7b8d4f4017b8/jetified-oppo-3.0.3/AndroidManifest.xml:29:25-79
+305            </intent-filter>
+306        </service> <!-- 用户自定义服务继承自GTIntentService,作为SDK与APP桥梁服务,用来接收各种消息和命令回复 -->
+307        <service android:name="io.dcloud.feature.unipush.GTNormalIntentService" /> <!-- 请根据您当前自定义的 PushService 名称路径进行配置 -->
+307-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:19:9-83
+307-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:19:18-80
+308        <service
+308-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:22:9-26:46
+309            android:name="io.dcloud.feature.unipush.CustomGTService"
+309-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:23:13-69
+310            android:exported="true"
+310-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:24:13-36
+311            android:label="PushService"
+311-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:25:13-40
+312            android:process=":pushservice" /> <!-- 用户自定义服务名 -->
+312-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:26:13-43
+313        <receiver
+313-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:30:9-40:20
+314            android:name="io.dcloud.feature.unipush.GTNotificationReceiver"
+314-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:31:13-76
+315            android:exported="false" >
+315-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:32:13-37
+316            <intent-filter>
+316-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:33:13-39:29
+317                <action android:name="android.intent.action.BOOT_COMPLETED" />
+317-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:34:17-79
+317-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:34:25-76
+318                <action android:name="com.bc.solarsync.__CREATE_NOTIFICATION" />
+318-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:35:17-85
+318-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:35:25-82
+319                <action android:name="com.bc.solarsync.__REMOVE_NOTIFICATION" />
+319-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:36:17-85
+319-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:36:25-82
+320                <action android:name="com.bc.solarsync.__CLEAR_NOTIFICATION" />
+320-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:37:17-84
+320-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:37:25-81
+321                <action android:name="com.bc.solarsync.__CLILK_NOTIFICATION" />
+321-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:38:17-84
+321-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:38:25-81
+322            </intent-filter>
+323        </receiver>
+324
+325        <meta-data
+325-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:72:9-74:53
+326            android:name="PUSH_APPID"
+326-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:73:13-38
+327            android:value="xN4SzW5lFF7pYX20iNGL12" />
+327-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:74:13-50
+328        <meta-data
+328-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:75:9-77:54
+329            android:name="PUSH_APPKEY"
+329-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:76:13-39
+330            android:value="glbrPzdWcI6CF8g7ZZ0Ql8" />
+330-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:77:13-51
+331        <meta-data
+331-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:78:9-80:57
+332            android:name="PUSH_APPSECRET"
+332-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:79:13-42
+333            android:value="grTGq9sgnE7xRvEBA6hgg9" />
+333-->[aps-unipush-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/9762ce0f35f114e820a995e9655af429/jetified-aps-unipush-release/AndroidManifest.xml:80:13-54
+334
+335        <service
+335-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:19:9-22:46
+336            android:name="com.xiaomi.push.service.XMPushService"
+336-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:20:13-65
+337            android:enabled="true"
+337-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:21:13-35
+338            android:process=":pushservice" /> <!-- 注：此service必须在3.0.1版本以后（包括3.0.1版本）加入 -->
+338-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:22:13-43
+339        <service
+339-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:25:9-30:46
+340            android:name="com.xiaomi.push.service.XMJobService"
+340-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:26:13-64
+341            android:enabled="true"
+341-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:27:13-35
+342            android:exported="false"
+342-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:28:13-37
+343            android:permission="android.permission.BIND_JOB_SERVICE"
+343-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:29:13-69
+344            android:process=":pushservice" />
+344-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:30:13-43
+345        <service
+345-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:31:9-35:46
+346            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+346-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:32:13-68
+347            android:enabled="true"
+347-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:33:13-35
+348            android:exported="true"
+348-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:34:13-36
+349            android:process=":pushservice" /> <!-- 注：此service必须在2.2.5版本以后（包括2.2.5版本）加入 -->
+349-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:35:13-43
+350        <service
+350-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:38:9-41:46
+351            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+351-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:39:13-70
+352            android:enabled="true"
+352-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:40:13-35
+353            android:process=":pushservice" />
+353-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:41:13-43
+354
+355        <receiver
+355-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:43:9-52:20
+356            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+356-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:44:13-83
+357            android:exported="true"
+357-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:45:13-36
+358            android:process=":pushservice" >
+358-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:46:13-43
+359            <intent-filter>
+359-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:47:13-51:29
+360                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+360-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:17-79
+360-->[gtsdk-3.2.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5253f31566ecadb8b5ab0fd21181dcac/jetified-gtsdk-3.2.2.0/AndroidManifest.xml:42:25-76
+361
+362                <category android:name="android.intent.category.DEFAULT" />
+362-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:17-76
+362-->/Users/caohouhong/Desktop/HBuilder-Integrate-AS/simpleDemo/src/main/AndroidManifest.xml:28:27-73
+363            </intent-filter>
+364        </receiver>
+365        <receiver
+365-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:53:9-60:20
+366            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+366-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:54:13-74
+367            android:exported="false"
+367-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:55:13-37
+368            android:process=":pushservice" >
+368-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:56:13-43
+369            <intent-filter>
+369-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:57:13-59:29
+370                <action android:name="com.xiaomi.push.PING_TIMER" />
+370-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:58:17-69
+370-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:58:25-66
+371            </intent-filter>
+372        </receiver>
+373        <receiver
+373-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:61:9-74:20
+374            android:name="com.igexin.sdk.MiuiPushReceiver"
+374-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:62:13-59
+375            android:exported="true"
+375-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:63:13-36
+376            android:process=":pushservice" >
+376-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:64:13-43
+377            <intent-filter>
+377-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:65:13-67:29
+378                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+378-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:66:17-76
+378-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:66:25-73
+379            </intent-filter>
+380            <intent-filter>
+380-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:68:13-70:29
+381                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+381-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:69:17-76
+381-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:69:25-73
+382            </intent-filter>
+383            <intent-filter>
+383-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:71:13-73:29
+384                <action android:name="com.xiaomi.mipush.ERROR" />
+384-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:72:17-66
+384-->[xmp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/c4dba2c0c30f79dfd1f3f1f60b06d007/jetified-xmp-3.0.2/AndroidManifest.xml:72:25-63
+385            </intent-filter>
+386        </receiver>
+387
+388        <provider
+388-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:16:9-19:40
+389            android:name="com.getui.gtc.base.GtcProvider"
+389-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:17:13-58
+390            android:authorities="com.bc.solarsync.getui.gtc.provider"
+390-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:18:13-70
+391            android:exported="false" />
+391-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:19:13-37
+392
+393        <service
+393-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:21:9-27:19
+394            android:name="com.getui.gtc.GtcService"
+394-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:22:13-52
+395            android:exported="false" >
+395-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:23:13-37
+396            <intent-filter>
+396-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:24:13-26:29
+397                <action android:name="com.getui.gtc.sdk.service.action" />
+397-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:25:17-75
+397-->[gtc-3.1.2.0.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/14ad14388794048983af2e5ce2b9a288/jetified-gtc-3.1.2.0/AndroidManifest.xml:25:25-72
+398            </intent-filter>
+399        </service>
+400
+401        <receiver
+401-->[uniapp-v8-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/382fff36f27217d2a5f8e25a9e7bdca3/jetified-uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+402            android:name="com.taobao.weex.WXGlobalEventReceiver"
+402-->[uniapp-v8-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/382fff36f27217d2a5f8e25a9e7bdca3/jetified-uniapp-v8-release/AndroidManifest.xml:31:13-65
+403            android:enabled="true"
+403-->[uniapp-v8-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/382fff36f27217d2a5f8e25a9e7bdca3/jetified-uniapp-v8-release/AndroidManifest.xml:32:13-35
+404            android:exported="false" >
+404-->[uniapp-v8-release.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/382fff36f27217d2a5f8e25a9e7bdca3/jetified-uniapp-v8-release/AndroidManifest.xml:33:13-37
+405        </receiver> <!-- 魅族 -->
+406        <service
+406-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:27:9-30:46
+407            android:name="com.meizu.cloud.pushsdk.NotificationService"
+407-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:28:13-71
+408            android:exported="true"
+408-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:29:13-36
+409            android:process=":pushservice" />
+409-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:30:13-43
+410
+411        <receiver
+411-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:32:9-49:20
+412            android:name="com.igexin.sdk.FlymePushReceiver"
+412-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:33:13-60
+413            android:process=":pushservice" >
+413-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:34:13-43
+414            <intent-filter>
+414-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:35:13-48:29
+415
+416                <!-- 接收push消息 -->
+417                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+417-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:38:17-78
+417-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:38:25-75
+418                <!-- 接收register消息 -->
+419                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+419-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:40:17-88
+419-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:40:25-85
+420                <!-- 接收unregister消息 -->
+421                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+421-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:42:17-90
+421-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:42:25-87
+422                <!-- 兼容低版本Flyme3推送服务配置 -->
+423                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+423-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:44:17-77
+423-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:44:25-74
+424                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+424-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:45:17-72
+424-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:45:25-69
+425
+426                <category android:name="com.bc.solarsync" />
+426-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:47:17-61
+426-->[mzp-3.0.2.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/73c8b1b0e1b578b28a9016349a7ac77a/jetified-mzp-3.0.2/AndroidManifest.xml:47:27-58
+427            </intent-filter>
+428        </receiver>
+429
+430        <service
+430-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:12:9-19:19
+431            android:name="com.igexin.sdk.HmsPushMessageService"
+431-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:13:13-64
+432            android:exported="false"
+432-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:14:13-37
+433            android:process=":pushservice" >
+433-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:15:13-43
+434            <intent-filter>
+434-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:16:13-18:29
+435                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+435-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:17:17-81
+435-->[hwp-3.0.1.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/f23ef48205a5d3284e7f7216d198aae2/jetified-hwp-3.0.1/AndroidManifest.xml:17:25-78
+436            </intent-filter>
+437        </service>
+438
+439        <activity
+439-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:12:9-17:75
+440            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+440-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:13:13-69
+441            android:exported="false"
+441-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:14:13-37
+442            android:process=":pushservice"
+442-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:15:13-43
+443            android:screenOrientation="portrait"
+443-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:16:13-49
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:17:13-72
+445
+446        <receiver
+446-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:19:9-27:20
+447            android:name="com.igexin.sdk.VivoPushMessageReceiver"
+447-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:20:13-66
+448            android:process=":pushservice" >
+448-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:21:13-43
+449            <intent-filter>
+449-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:22:13-26:29
+450
+451                <!-- 接收 push 消息 -->
+452                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+452-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:25:17-77
+452-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:25:25-74
+453            </intent-filter>
+454        </receiver>
+455
+456        <service
+456-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:29:9-32:46
+457            android:name="com.vivo.push.sdk.service.CommandClientService"
+457-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:30:13-74
+458            android:exported="true"
+458-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:31:13-36
+459            android:process=":pushservice" />
+459-->[vivo-3.0.3.aar] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/7e0e45a4fb0ed54cf69935577b1f1daf/jetified-vivo-3.0.3/AndroidManifest.xml:32:13-43
+460
+461        <receiver
+461-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:26:9-37:20
+462            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+462-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:27:13-75
+463            android:directBootAware="true"
+463-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:28:13-43
+464            android:permission="com.bc.solarsync.permission.PROCESS_PUSH_MSG" >
+464-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:29:13-78
+465            <intent-filter>
+465-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:30:13-36:29
+466
+467                <!-- Mandatory, be used to receive notification bar message click event. -->
+468                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+468-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:33:17-85
+468-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:33:25-82
+469                <!-- Optional, compatible with old huawei phones. -->
+470                <action android:name="com.huawei.intent.action.PUSH" />
+470-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:35:17-72
+470-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:35:25-69
+471            </intent-filter>
+472        </receiver>
+473        <receiver
+473-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:38:9-49:20
+474            android:name="com.huawei.hms.support.api.push.PushReceiver"
+474-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:39:13-72
+475            android:directBootAware="true"
+475-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:40:13-43
+476            android:permission="com.bc.solarsync.permission.PROCESS_PUSH_MSG" >
+476-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:41:13-78
+477            <intent-filter>
+477-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:42:13-48:29
+478
+479                <!-- Mandatory, be used to receive tokens. -->
+480                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+480-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:45:17-86
+480-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:45:25-83
+481                <!-- Mandatory, be used to receive messages. -->
+482                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+482-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:47:17-81
+482-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:47:25-78
+483            </intent-filter>
+484        </receiver> <!-- Definition of receiving service for notification bar and pass-through message of non-huawei mobile phone. -->
+485        <service
+485-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:52:9-62:19
+486            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+486-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:53:13-81
+487            android:directBootAware="true"
+487-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:54:13-43
+488            android:enabled="true"
+488-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:55:13-35
+489            android:exported="true"
+489-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:56:13-36
+490            android:process=":pushservice" >
+490-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:57:13-43
+491            <intent-filter>
+491-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:58:13-61:29
+492                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+492-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:59:17-73
+492-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:59:25-70
+493                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+493-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:60:17-73
+493-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:60:25-70
+494            </intent-filter>
+495        </service>
+496
+497        <provider
+497-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:64:9-70:89
+498            android:name="com.huawei.hms.support.api.push.PushProvider"
+498-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:65:13-72
+499            android:authorities="com.bc.solarsync.huawei.push.provider"
+499-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:66:13-72
+500            android:exported="true"
+500-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:67:13-36
+501            android:permission="com.bc.solarsync.permission.PUSH_PROVIDER"
+501-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:68:13-75
+502            android:readPermission="com.bc.solarsync.permission.PUSH_PROVIDER"
+502-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:69:13-79
+503            android:writePermission="com.bc.solarsync.permission.PUSH_WRITE_PROVIDER" />
+503-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:70:13-86
+504
+505        <meta-data
+505-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:72:9-74:46
+506            android:name="com.huawei.hms.client.service.name:push"
+506-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:73:13-67
+507            android:value="push:5.0.2.300" />
+507-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:74:13-43
+508        <meta-data
+508-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:75:9-77:33
+509            android:name="com.huawei.hms.min_api_level:push:push"
+509-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:76:13-66
+510            android:value="1" />
+510-->[com.huawei.hms:push:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/510e1136681f6d04d4795aa64e8d4a62/jetified-push-5.0.2.300/AndroidManifest.xml:77:13-30
+511
+512        <provider
+512-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:10:9-13:40
+513            android:name="com.huawei.hms.aaid.InitProvider"
+513-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:11:13-60
+514            android:authorities="com.bc.solarsync.aaidinitprovider"
+514-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:12:13-68
+515            android:exported="false" />
+515-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:13:13-37
+516
+517        <meta-data
+517-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:15:9-17:52
+518            android:name="com.huawei.hms.client.service.name:opendevice"
+518-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:16:13-73
+519            android:value="opendevice:5.0.2.300" />
+519-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:17:13-49
+520        <meta-data
+520-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:18:9-20:33
+521            android:name="com.huawei.hms.min_api_level:opendevice:push"
+521-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:19:13-72
+522            android:value="1" />
+522-->[com.huawei.hms:opendevice:5.0.2.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/635ef30e63e71540c6f54700b4b46290/jetified-opendevice-5.0.2.300/AndroidManifest.xml:20:13-30
+523
+524        <uses-library
+524-->[com.huawei.android.hms:security-ssl:1.1.5.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/4e864de546eaeec4a754f78c75e920f4/jetified-security-ssl-1.1.5.301/AndroidManifest.xml:10:9-12:40
+525            android:name="org.apache.http.legacy"
+525-->[com.huawei.android.hms:security-ssl:1.1.5.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/4e864de546eaeec4a754f78c75e920f4/jetified-security-ssl-1.1.5.301/AndroidManifest.xml:11:13-50
+526            android:required="false" />
+526-->[com.huawei.android.hms:security-ssl:1.1.5.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/4e864de546eaeec4a754f78c75e920f4/jetified-security-ssl-1.1.5.301/AndroidManifest.xml:12:13-37
+527        <!--
+528        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+529        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+530        -->
+531        <meta-data
+531-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:18:9-20:46
+532            android:name="com.huawei.hms.client.service.name:base"
+532-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:19:13-67
+533            android:value="base:5.0.0.301" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+533-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:20:13-43
+534        <meta-data
+534-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:23:9-25:33
+535            android:name="com.huawei.hms.min_api_level:base:hmscore"
+535-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:24:13-69
+536            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+536-->[com.huawei.hms:base:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/b60e9bab87e88597f94862bc2a229e51/jetified-base-5.0.0.301/AndroidManifest.xml:25:13-30
+537        <meta-data
+537-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:23:9-25:35
+538            android:name="availableLoaded"
+538-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:24:13-43
+539            android:value="yes" />
+539-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:25:13-32
+540
+541        <provider
+541-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:27:9-32:20
+542            android:name="com.huawei.hms.update.provider.UpdateProvider"
+542-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:28:13-73
+543            android:authorities="com.bc.solarsync.hms.update.provider"
+543-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:29:13-71
+544            android:exported="false"
+544-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:30:13-37
+545            android:grantUriPermissions="true" >
+545-->[com.huawei.hms:availableupdate:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/5c4b094d3476e7970d415f1b4e3ff3e5/jetified-availableupdate-5.0.0.301/AndroidManifest.xml:31:13-47
+546        </provider>
+547
+548        <activity
+548-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:10:9-21:20
+549            android:name="com.huawei.hms.activity.BridgeActivity"
+549-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:11:13-66
+550            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+550-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:12:13-124
+551            android:excludeFromRecents="true"
+551-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:13:13-46
+552            android:exported="false"
+552-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:14:13-37
+553            android:hardwareAccelerated="true"
+553-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:15:13-47
+554            android:screenOrientation="behind"
+554-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:16:13-47
+555            android:theme="@android:style/Theme.Translucent" >
+555-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:17:13-61
+556            <meta-data
+556-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:18:13-20:77
+557                android:name="hwc-theme"
+557-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:19:17-41
+558                android:value="androidhwext:style/Theme.Emui.Translucent" />
+558-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:20:17-74
+559        </activity>
+560        <activity
+560-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:22:9-26:20
+561            android:name="com.huawei.hms.activity.EnableServiceActivity"
+561-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:23:13-73
+562            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+562-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:24:13-106
+563            android:exported="false" >
+563-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:25:13-37
+564        </activity>
+565
+566        <provider
+566-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:11:9-14:40
+567            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+567-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:12:13-90
+568            android:authorities="com.bc.solarsync.AGCInitializeProvider"
+568-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:13:13-73
+569            android:exported="false" />
+569-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:14:13-37
+570
+571        <service
+571-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:16:9-18:40
+572            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+572-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:17:13-70
+573            android:exported="false" />
+573-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/0c8eb89e3b8d6e80fd912a33c4d54193/jetified-agconnect-core-1.4.0.300/AndroidManifest.xml:18:13-37
+574
+575        <activity
+575-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:21:9-29:20
+576            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+576-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:22:13-84
+577            android:configChanges="orientation|screenSize"
+577-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:23:13-59
+578            android:exported="false"
+578-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:24:13-37
+579            android:theme="@style/upsdkDlDialog" >
+579-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:25:13-49
+580            <meta-data
+580-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:18:13-20:77
+581                android:name="hwc-theme"
+581-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:19:17-41
+582                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+582-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:20:17-74
+583        </activity>
+584        <activity
+584-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:30:9-38:20
+585            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+585-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:31:13-84
+586            android:configChanges="orientation|keyboardHidden|screenSize"
+586-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:32:13-74
+587            android:exported="false"
+587-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:33:13-37
+588            android:theme="@style/upsdkDlDialog" >
+588-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:34:13-49
+589            <meta-data
+589-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:18:13-20:77
+590                android:name="hwc-theme"
+590-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:19:17-41
+591                android:value="androidhwext:style/Theme.Emui.Translucent" />
+591-->[com.huawei.hms:ui:5.0.0.301] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/fd006400254efc9d797bb85e6cbc5f0b/jetified-ui-5.0.0.301/AndroidManifest.xml:20:17-74
+592        </activity>
+593
+594        <provider
+594-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:40:9-45:20
+595            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+595-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:41:13-83
+596            android:authorities="com.bc.solarsync.updateSdk.fileProvider"
+596-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:42:13-74
+597            android:exported="false"
+597-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:43:13-37
+598            android:grantUriPermissions="true" >
+598-->[com.huawei.hms:update:2.0.6.302] /Users/caohouhong/.gradle/caches/transforms-2/files-2.1/8240f579a0fe7c5b591dbc7df4cec8e8/jetified-update-2.0.6.302/AndroidManifest.xml:44:13-47
+599        </provider>
+600    </application>
+601
+602</manifest>
